@@ -16,7 +16,7 @@ function Navbar(){
         <div>
             <nav className="uk-navbar-container" uk-navbar='true'>
                 <div className="uk-navbar-left">
-                    <span className="uk-icon-button uk-margin-small-left"><img src={Logo} alt='custom logo'></img></span>
+                    <a className="uk-icon-button uk-margin-small-left" id='welcome' onClick={clickMe}><img src={Logo} alt='custom logo'></img></a>
                 </div>
                 <div className="uk-navbar-right">
                     <ul className="uk-navbar-nav">
