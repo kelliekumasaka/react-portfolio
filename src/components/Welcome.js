@@ -9,7 +9,7 @@ function Welcome(){
 
     return(
         <div style={style}>
-                <h1 className="uk-animation-fade">Hi there, welcome to my portfolio!</h1>
+            <h1 className="uk-animation-fade">Hi there, welcome to my portfolio!</h1>
         </div>
     )
 }
