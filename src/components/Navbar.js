@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import Pdf from '../documents/resume.pdf';
 import Logo from '../documents/round.png'
 import Project from './Project'
+import "./Navbar.css"
 
 function Navbar(){
     const [doc, setDoc] = useState('');
@@ -13,7 +14,7 @@ function Navbar(){
     const clickMe = (e) => setDoc(e.target.id)
     
     return (
-        <div>
+        <div id="main">
             <nav className="uk-navbar-container" uk-navbar='true'>
                 <div className="uk-navbar-left">
                     <a className="uk-icon-button uk-margin-small-left" id='welcome' onClick={clickMe}><img src={Logo} alt='custom logo'></img></a>

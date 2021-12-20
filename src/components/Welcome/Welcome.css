@@ -1,0 +1,33 @@
+#welcomeContainer{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    align-content: center;
+}
+
+#hi{
+    margin-top: 20px;
+    align-self: center;
+}
+
+#myPic{
+    border-radius:50%;
+    width: 200px;
+    height: auto;
+    margin-right: 30px;
+}
+
+@media screen and (max-width:426px){
+    #welcomeContainer{
+        display: block;
+    }
+    #myPic{
+        display: block;
+        margin-left: auto;
+        margin-right:auto;
+        width: 50%;
+    }
+    h1{
+        text-align: center;
+    }
+}

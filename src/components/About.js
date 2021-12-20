@@ -2,7 +2,8 @@ import React from "react";
 
 function About(){
     const style = {
-        margin:'20px'
+      margin:'50px',
+      textAlign:"center"
     };
 
     return (

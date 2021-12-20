@@ -7,8 +7,9 @@ import UIkit from 'uikit';
 import Icons from 'uikit/dist/js/uikit-icons';
 import "../node_modules/uikit/dist/js/uikit.min.js";
 
-UIkit.use(Icons)
+UIkit.use(Icons);
 
 ReactDOM.render(
-    <App />, document.getElementById('root')
+    <App />, 
+    document.getElementById('root')
 );

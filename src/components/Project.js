@@ -1,6 +1,6 @@
 import React from "react";
 import About from './About';
-import Welcome from "./Welcome";
+import Welcome from "./Welcome/Welcome";
 import Work from "./Work";
 
 function Project(props){

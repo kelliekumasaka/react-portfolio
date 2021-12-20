@@ -1,0 +1,11 @@
+.my-icons{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+@media screen and (max-width:426px) {
+    .my-icons{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
