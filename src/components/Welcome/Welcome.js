@@ -4,10 +4,13 @@ import "./Welcome.css"
 
 function Welcome(){
     return(
-        <div id='welcomeContainer'>
-            <img id="myPic" src={Pic} display="inline"/>
-            <h1 id="hi" style={{fontFamily:'Poppins'}} className="uk-animation-fade">Hi there, welcome to my portfolio!</h1>
-        </div>
+        <>
+            <h4 style={{fontFamily:'Poppins', textAlign:"right"}} >Contact me @ <a href="mailto:kelliek3@gmail.com">kelliek3@gmail.com</a></h4>
+            <div id='welcomeContainer'>
+                <img id="myPic" src={Pic} display="inline"/>
+                <h1 id="hi" style={{fontFamily:'Poppins'}} className="uk-animation-fade">Hi there, welcome to my portfolio!</h1>
+            </div>
+        </>
     )
 }
 
