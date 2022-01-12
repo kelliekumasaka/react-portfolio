@@ -6,9 +6,11 @@ import Journal from "./journalIcon/journalIcon";
 import Nature from "./natureIcon/natureIcon";
 import Fitness from './fitnessIcon/fitnessIcon';
 import Employee from './employeeIcon/employeeIcon'
+import "./Work.css"
 
 function Work(){
     return(
+        <div id="work-container">
         <VerticalTimeline>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work" 
@@ -16,7 +18,7 @@ function Work(){
                 contentArrowStyle={{ borderRight: '7px solid  rgb(249,199,132)' }}
                 date="November 2021"
                 iconStyle={{ background: 'rgb(249,199,132)', color: '#4E598C'}} icon={<Journal/>}
-            >
+                >
                 <h3 className="vertical-timeline-element-title">Bullet Journaling Squared</h3>
                 <h4 className="vertical-timeline-element-subtitle"><a href="https://bullet-journal-squared.herokuapp.com/" target="_blank">Deployed Website</a> | <a href='https://github.com/kelliekumasaka/bullet-journal-squared'>GitHub Repo</a></h4>
                 <p>
@@ -29,7 +31,7 @@ function Work(){
                 contentArrowStyle={{ borderRight: '7px solid  rgb(249,199,132)' }}
                 date="October 2021"
                 iconStyle={{ background: 'rgb(249,199,132)', color: '#fff' }} icon={<Nature/>}
-            >
+                >
                 <h3 className="vertical-timeline-element-title">Animal Crossing Island Manager</h3>
                 <h4 className="vertical-timeline-element-subtitle"><a href="https://rallen4.github.io/project1-animal-crossing/" target="_blank">Deployed Website</a> | <a href='https://github.com/kelliekumasaka/animal-crossing-island-manager'>GitHub Repo</a></h4>
                 <p>
@@ -42,7 +44,7 @@ function Work(){
                 contentArrowStyle={{ borderRight: '7px solid  rgb(252,175,88)' }}
                 date="October 2021"
                 iconStyle={{ background: 'rgb(252,175,88)', color: '#fff' }} icon={<Employee/>}
-            >
+                >
                 <h3 className="vertical-timeline-element-title">Employee Tracker</h3>
                 <h4 className="vertical-timeline-element-subtitle"><a href="https://github.com/kelliekumasaka/employee-tracker" target="_blank">GitHub Repo</a></h4>
                 <p>
@@ -55,7 +57,7 @@ function Work(){
                 contentArrowStyle={{ borderRight: '7px solid  rgb(252,175,88)' }}
                 date="October 2021"
                 iconStyle={{ background: 'rgb(252,175,88)', color: '#fff' }} icon={<CloudIcon/>}
-            >
+                >
                 <h3 className="vertical-timeline-element-title">Weather Dashboard</h3>
                 <h4 className="vertical-timeline-element-subtitle"><a href="https://kelliekumasaka.github.io/weather-dashboard/" target="_blank">Deployed Website</a> | <a href='https://github.com/kelliekumasaka/weather-dashboard'>GitHub Repo</a></h4>
                 <p>
@@ -68,7 +70,7 @@ function Work(){
                 contentArrowStyle={{ borderRight: '7px solid  rgb(252,175,88)' }}
                 date="November 2021"
                 iconStyle={{ background: 'rgb(252,175,88)', color: '#fff' }} icon={<Fitness/>}
-            >
+                >
                 <h3 className="vertical-timeline-element-title">Fitness Tracker</h3>
                 <h4 className="vertical-timeline-element-subtitle"><a href="https://kelliekumasaka-fitness-tracker.herokuapp.com/" target="_blank">Deployed Website</a> | <a href='https://github.com/kelliekumasaka/fitness-tracker'>GitHub Repo</a></h4>
                 <p>
@@ -76,6 +78,7 @@ function Work(){
                 </p>
             </VerticalTimelineElement>
         </VerticalTimeline>
+        </div>
     )
 }
 

@@ -1,4 +1,12 @@
+#welcome-main{
+    min-height: 80vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
 #welcomeContainer{
+    align-items: center;
     display: flex;
     justify-content: center;
     margin: 10px;

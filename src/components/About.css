@@ -1,0 +1,12 @@
+#about{
+    margin: 50px;
+    text-align: center;
+    min-height: 70vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.about-para{
+    width: 100vw;
+}

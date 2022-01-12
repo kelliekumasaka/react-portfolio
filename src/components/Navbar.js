@@ -17,19 +17,19 @@ function Navbar(){
         <div id="main">
             <nav className="uk-navbar-container" uk-navbar='true' id="navBar">
                 <div className="uk-navbar-left">
-                    <a className="uk-icon-button uk-margin-small-left" id='welcome' onClick={clickMe}><img src={Logo} alt='custom logo'></img></a>
+                    <a className="uk-icon-button uk-margin-small-left" id='welcome' ><img src={Logo} alt='custom logo'></img></a>
                 </div>
                 <div className="uk-navbar-right">
                     <ul className="uk-navbar-nav">
                         <li className="uk-active"><a id='intro'
-                        onClick={clickMe}
+                        
                         >Intro</a></li>
-                        <li className="uk-active"><a id='work' onClick={clickMe}>Work</a></li>
+                        <li className="uk-active"><a id='work' >Work</a></li>
                         <li className="uk-active"><a id='resume' href={Pdf} onClick={clickMe}>Resume</a></li>
                     </ul>
                 </div>
             </nav>
-            <Project doc={doc}/>
+            {/* <Project doc={doc}/> */}
         </div>
     )
 }
