@@ -8,5 +8,7 @@
 }
 
 .about-para{
-    width: 100vw;
+    max-width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
 }
