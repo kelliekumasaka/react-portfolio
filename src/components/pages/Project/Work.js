@@ -1,11 +1,11 @@
 import React from "react";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import CloudIcon from "./CloudIcon/CloudIcon";
-import Journal from "./journalIcon/journalIcon";
-import Nature from "./natureIcon/natureIcon";
-import Fitness from './fitnessIcon/fitnessIcon';
-import Employee from './employeeIcon/employeeIcon'
+import CloudIcon from "../../CloudIcon/CloudIcon"
+import Journal from "../../journalIcon/journalIcon";
+import Nature from "../../natureIcon/natureIcon";
+import Fitness from '../../fitnessIcon/fitnessIcon';
+import Employee from '../../employeeIcon/employeeIcon'
 import "./Work.css"
 
 function Work(){

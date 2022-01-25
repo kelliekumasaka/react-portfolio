@@ -1,16 +1,14 @@
 import React from 'react';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-// import About from "./components/About";
-import Work from "./components/Work";
-import Welcome from "./components/Welcome/Welcome"
+import Work from "./components/pages/Project/Work"
+import Welcome from "./components/pages/Welcome/Welcome"
 
 function App() {
   return (
     <div id="app">
       <Navbar/>
       <Welcome/>
-      {/* <About/> */}
       <Work/>
       <Footer/>
     </div>
