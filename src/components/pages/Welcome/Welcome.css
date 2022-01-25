@@ -35,6 +35,7 @@
     height: 360px;
 }
 
+/* TODO: create mobile friendly breakpoints */
 @media screen and (max-width:426px){
     #welcomeContainer{
         display: block;

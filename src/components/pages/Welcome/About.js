@@ -4,7 +4,7 @@ import "./About.css"
 function About(){
     return (
       <div key="about" id="about">
-        <div id="paragraph-container">
+        <div id="paragraph-container" className="uk-animation-fade">
           <p className="about-paragraph">
             Hi there and thanks for checking out my portfolio! My name is Kellie and I am a former teacher turned web developer with a particular interest in UX design and front-end development. Currently, I am fluent in <code className="my-code">HTML, CSS, JavaScript, ReactJS</code> as well as <code className="my-code">MySql, Sequelize, Handlebars, ExpressJS, MongoDB, Mongoose and node.js</code>.
           </p>
