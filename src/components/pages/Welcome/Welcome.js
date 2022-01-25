@@ -15,7 +15,7 @@ function Welcome(){
                         </div>
                         <About/>
                     </div>
-                    <img alt="profile pic" id="myPic" src={Pic} display="inline"/>
+                    <img alt="profile pic" id="myPic" src={Pic}/>
                 </div>
             </div>
         </>

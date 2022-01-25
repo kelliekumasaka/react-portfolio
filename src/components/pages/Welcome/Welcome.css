@@ -33,6 +33,7 @@
     border-radius:25px;
     width: 360px;
     height: 360px;
+    object-fit: cover;
 }
 
 /* TODO: create mobile friendly breakpoints */
