@@ -5,7 +5,7 @@ import './fitnessIcon.css'
 export default function fitnessIcon() {
     return (
         <div>
-            <img src={fitness}/>
+            <img src={fitness} alt='fitness icon'/>
         </div>
     )
 }

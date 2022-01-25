@@ -5,7 +5,7 @@ import './CloudIcon.css'
 export default function CloudIcon() {
     return (
         <div>
-            <img src={Cloud}/>
+            <img src={Cloud} alt='cloud icon'/>
         </div>
     )
 }

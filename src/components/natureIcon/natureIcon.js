@@ -5,7 +5,7 @@ import './natureIcon.css'
 export default function natureIcon() {
     return (
         <div>
-            <img src={nature}/>
+            <img src={nature} alt='nature icon'/>
         </div>
     )
 }

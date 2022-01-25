@@ -5,13 +5,15 @@ import "./Welcome.css"
 function Welcome(){
     return(
         <>
-            <h4 style={{fontFamily:'Poppins', textAlign:"right"}} >Contact me @ <a href="mailto:kelliek3@gmail.com">kelliek3@gmail.com</a></h4>
-        <div id="welcome-main">
-            <div id='welcomeContainer'>
-                <img alt="profile pic" id="myPic" src={Pic} display="inline"/>
-                <h1 id="hi" style={{fontFamily:'Poppins'}} className="uk-animation-fade">Hi there, welcome to my portfolio!</h1>
+            <div id="welcome-main">
+                <div id='welcomeContainer'>
+                    <div id="title-container">
+                        <h1 id="hi" className="uk-animation-fade my-title">Kellie Kumasaka.</h1>
+                        <h1 className="uk-animation-fade my-title">Full-Stack Developer.</h1>
+                    </div>
+                    <img alt="profile pic" id="myPic" src={Pic} display="inline"/>
+                </div>
             </div>
-        </div>
         </>
     )
 }

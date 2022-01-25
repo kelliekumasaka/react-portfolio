@@ -5,7 +5,7 @@ import './journalIcon.css'
 export default function journalIcon() {
     return (
         <div>
-            <img src={journal}/>
+            <img src={journal} alt='journal icon'/>
         </div>
     )
 }

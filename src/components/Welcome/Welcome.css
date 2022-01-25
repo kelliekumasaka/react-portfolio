@@ -1,28 +1,35 @@
 #welcome-main{
-    min-height: 80vh;
+    min-height: 839px;
     align-items: center;
     display: flex;
     justify-content: center;
+    background-color: #f1f1f1;
 }
 
 #welcomeContainer{
-    align-items: center;
     display: flex;
     justify-content: center;
-    margin: 10px;
-    align-content: center;
+    margin: 0px 200px 0px 200px;
+}
+
+.my-title{
+    font-family: "Poppins";
+    font-weight: 700;
+    margin: 0px;
 }
 
 #hi{
-    margin-top: 20px;
-    align-self: center;
+    color: #af84ed;
+}
+
+#title-container{
+    margin-right: 75px;
 }
 
 #myPic{
-    border-radius:50%;
-    width: 200px;
-    height: 200px;
-    margin-right: 30px;
+    border-radius:25px;
+    width: 360px;
+    height: 360px;
 }
 
 @media screen and (max-width:426px){

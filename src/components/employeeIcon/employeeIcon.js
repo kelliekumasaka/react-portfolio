@@ -5,7 +5,7 @@ import './employeeIcon.css'
 export default function employeeIcon() {
     return (
         <div>
-            <img src={employee}/>
+            <img src={employee} alt='work icon'/>
         </div>
     )
 }
