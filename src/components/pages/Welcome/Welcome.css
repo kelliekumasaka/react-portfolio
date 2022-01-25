@@ -22,8 +22,11 @@
     color: #af84ed;
 }
 
-#title-container{
-    margin-right: 75px;
+#info-container{
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #myPic{
