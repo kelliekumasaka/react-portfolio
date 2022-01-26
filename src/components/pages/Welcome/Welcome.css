@@ -34,7 +34,7 @@
     object-fit: cover;
 }
 
-/* TODO: create tablet friendly breakpoint */
+/* for small tablets  */
 @media screen and (max-width:959px){
     #welcomeContainer{
         display: block;
@@ -42,20 +42,59 @@
     #myPic{
         display: block;
         margin-left: auto;
-        margin-right:auto;
-        width: 50%;
+        margin-right: auto;
     }
     h1{
         text-align: center;
     }
     #info-container{
-        width: 50%;
         margin: auto;
         margin-top: 60px;
     }
+    #about{
+        width: 360px;
+        margin: auto;
+    }
 }
 
-/* TODO: create mobile friendly breakpoint */
+/* for larger phones */
 @media screen and (max-width:767px) {
-    
+    #info-container{
+        margin-top: 10px;
+    }
+    #myPic{
+        width: 240px;
+        height: 240px;
+    }
+    .about-paragraph{
+        font-size: small;
+    }
+    #title-container h1{
+        font-size: 2rem;
+    }
+}
+
+/* for smaller phones */
+@media screen and (max-width:375px) {
+    #info-container{
+        margin-top: 50px;
+    }
+    #title-container h1{
+        font-size: 1.5rem;
+    }
+    .about-paragraph{
+        font-size: smaller;
+        width: 200px;
+    }
+    #myPic{
+        width: 200px;
+        height: 200px;
+    }
+    #welcome-container{
+        margin: 0px;
+    }
+    #paragraph-container{
+        flex-direction: column;
+        margin: auto;
+    }
 }

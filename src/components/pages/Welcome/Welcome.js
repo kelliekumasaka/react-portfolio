@@ -18,6 +18,7 @@ function Welcome(){
                     </div>
                     <br></br>
                     <img alt="profile pic" id="myPic" src={Pic}/>
+                    <br></br>
                 </div>
             </div>
         </>
