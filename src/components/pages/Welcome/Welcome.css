@@ -9,7 +9,8 @@
 #welcomeContainer{
     display: flex;
     justify-content: center;
-    margin: 0px 200px 0px 200px;
+    max-width: 900px;
+    margin: auto;
 }
 
 .my-title{
@@ -18,15 +19,12 @@
     margin: 0px;
 }
 
-#hi{
+#name{
     color: #af84ed;
 }
 
 #info-container{
     margin-right: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 #myPic{
@@ -36,8 +34,8 @@
     object-fit: cover;
 }
 
-/* TODO: create mobile friendly breakpoints */
-@media screen and (max-width:426px){
+/* TODO: create tablet friendly breakpoint */
+@media screen and (max-width:959px){
     #welcomeContainer{
         display: block;
     }
@@ -50,4 +48,14 @@
     h1{
         text-align: center;
     }
+    #info-container{
+        width: 50%;
+        margin: auto;
+        margin-top: 60px;
+    }
+}
+
+/* TODO: create mobile friendly breakpoint */
+@media screen and (max-width:767px) {
+    
 }
