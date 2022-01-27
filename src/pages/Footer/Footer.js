@@ -2,8 +2,8 @@ import React from "react";
 import "./Footer.css"
 
 function Footer(){
-    function clickMe(e) {
-        e.preventDefault();
+    function clickMe() {
+        window.open('mailto:kelliek3@gmail.com','_blank')
     }
 
     return(
@@ -23,7 +23,7 @@ function Footer(){
                 <br></br>
                 <br></br>                
                 <br></br>
-                <button onClick={{clickMe}} id="hello-button">Say Hello</button>
+                <button onClick={clickMe} id="hello-button">Say Hello</button>
             </div>
         </div>
     )
