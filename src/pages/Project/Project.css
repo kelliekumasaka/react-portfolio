@@ -30,11 +30,16 @@
     margin-top: 20px;
 }
 
+#acnh-island-manager{
+    background-position: center;
+}
+
 .my-card{
     height: 270px;
     width: 270px;
     border-radius: 26px;
     background-size:cover;
+    background-repeat: no-repeat;
 }
 
 .my-overlay{
