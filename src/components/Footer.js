@@ -2,10 +2,14 @@ import React from "react";
 import "./Footer.css"
 
 function Footer(){
+    function clickMe(e) {
+        e.preventDefault();
+    }
+
     return(
-        <div id='contact'>
-            <div id="contact-container">
-                <div id="contact-title-container">
+        <div id='footer'>
+            <div id="footer-container">
+                <div id="footer-title-container">
                     <h1 className="project-title">Let's </h1>
                     <h1 id="connect">Connect</h1>
                     <h1 className="project-title">!</h1>
@@ -19,7 +23,7 @@ function Footer(){
                 <br></br>
                 <br></br>                
                 <br></br>
-                <button id="hello-button">Say Hello</button>
+                <button onClick={{clickMe}} id="hello-button">Say Hello</button>
             </div>
         </div>
     )

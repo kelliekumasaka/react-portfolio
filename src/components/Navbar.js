@@ -11,9 +11,9 @@ function Navbar(){
                         <ul className="uk-navbar-nav">
                             <li className="uk-active"><a id='intro' href="#title-container">Intro</a></li>
                             <li className="uk-active"><a id='work' href="#work-container">Work</a></li>
+                            <li className="uk-active"><a id='contact' href="#footer">Contact</a></li>
                             <li className="uk-active"><a id='resume' href={Pdf}>Resume</a></li>
                         </ul>
-                        
                     </div>
                 </nav>
             </div>
