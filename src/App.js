@@ -1,8 +1,9 @@
 import React from 'react';
-import Footer from './pages/Footer/Footer'
+import Connect from './pages/Connect/Connect'
 import Navbar from './components/Navbar';
 import Work from "./pages/Project/Work"
 import Welcome from "./pages/Welcome/Welcome"
+import Footer from './pages/Footer/Footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar/>
       <Welcome/>
       <Work/>
+      <Connect/>
       <Footer/>
     </div>
   );

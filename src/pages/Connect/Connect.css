@@ -1,0 +1,40 @@
+#connect{
+    min-height: 600px;
+    align-items: center;
+    display: flex;
+}
+
+#connect-title-container h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    display: inline;
+}
+
+#connect{
+    color: #E88E4F;
+}
+
+#connect-container{
+    width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#connect-with-me{
+    text-align: center;
+    max-width: 642px;
+}
+
+#hello-button{
+    padding: 10px 40px;
+    border-radius: 12px;
+    background-color: transparent;
+    border: solid 1px black;
+    font-size: 16px;
+}
+
+#hello-button:hover{
+    cursor: pointer;
+}
