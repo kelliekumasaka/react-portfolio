@@ -19,10 +19,20 @@
 
 #project-title-container{
     padding-top: 181px;
-    margin-left: 251px;
 }
 
 #project-container{
     max-width: 900px;
-    margin: auto;
+    margin:auto;
+}
+
+#grid-container{
+    margin-top: 20px;
+}
+
+.my-card{
+    min-height: 270px;
+    max-width: 270px;
+    border-radius: 25px;
+    background-image: 'src/images/dog-and-person.webp';
 }
