@@ -1,8 +1,8 @@
 import React from 'react';
-import Footer from './components/Footer';
+import Footer from './pages/Footer/Footer'
 import Navbar from './components/Navbar';
-import Work from "./components/pages/Project/Work"
-import Welcome from "./components/pages/Welcome/Welcome"
+import Work from "./pages/Project/Work"
+import Welcome from "./pages/Welcome/Welcome"
 
 function App() {
   return (
