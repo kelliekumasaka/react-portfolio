@@ -14,9 +14,10 @@
 }
 
 .my-title{
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
     margin: 0px;
+    color: black;
 }
 
 #name{
@@ -44,7 +45,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    h1{
+    #title-container h1{
         text-align: center;
     }
     #info-container{

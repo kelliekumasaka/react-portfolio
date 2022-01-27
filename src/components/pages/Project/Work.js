@@ -1,17 +1,23 @@
 import React from "react";
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
-import CloudIcon from "../../CloudIcon/CloudIcon"
-import Journal from "../../journalIcon/journalIcon";
-import Nature from "../../natureIcon/natureIcon";
-import Fitness from '../../fitnessIcon/fitnessIcon';
-import Employee from '../../employeeIcon/employeeIcon'
+// import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+// import 'react-vertical-timeline-component/style.min.css';
+// import CloudIcon from "../../CloudIcon/CloudIcon"
+// import Journal from "../../journalIcon/journalIcon";
+// import Nature from "../../natureIcon/natureIcon";
+// import Fitness from '../../fitnessIcon/fitnessIcon';
+// import Employee from '../../employeeIcon/employeeIcon'
 import "./Work.css"
 
 function Work(){
     return(
         <div id="work-container">
-        <VerticalTimeline>
+            <div id="project-container">
+                <div id="project-title-container">
+                    <h1 className="project-title"  id="project-header">Projects </h1>
+                    <h1 className="project-title">so far...</h1>
+                </div>
+            </div>
+        {/* <VerticalTimeline>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work" 
                 contentStyle={{ background: 'rgb(249,199,132)', color: '#fff'}}
@@ -77,7 +83,7 @@ function Work(){
                 This website allows you to track your workout progress and put that data into a MongoDB database, so you can track your progress over the past week and see what you've done most recently.
                 </p>
             </VerticalTimelineElement>
-        </VerticalTimeline>
+        </VerticalTimeline> */}
         </div>
     )
 }

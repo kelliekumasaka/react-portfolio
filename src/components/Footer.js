@@ -2,19 +2,25 @@ import React from "react";
 import "./Footer.css"
 
 function Footer(){
-    const style = {
-        display:'flex',
-        justifyContent:'center',
-        paddingBottom:'30px',
-        paddingTop:'30px'
-    };
-
     return(
-        <div id='contact' style={style}>
-            <a href="mailto:kelliek3@gmail.com" className="uk-icon-button uk-margin-medium-right my-icons" target="_blank" uk-icon="mail" id="mail" rel="noreferrer" ></a>
-            <a href="tel:206-697-9792" className="uk-icon-button  uk-margin-medium-right my-icons" uk-icon="receiver" id="tel"></a>
-            <a href="https://github.com/kelliekumasaka" target="_blank" className="uk-icon-button my-icons uk-margin-medium-right" uk-icon="github-alt" id="gh" rel="noreferrer"></a>
-            <a href="https://www.linkedin.com/in/kellie-kumasaka/" target="_blank" className="uk-icon-button my-icons uk-margin-medium-right" uk-icon="linkedin" id="linkedin" rel="noreferrer"></a>
+        <div id='contact'>
+            <div id="contact-container">
+                <div id="contact-title-container">
+                    <h1 className="project-title">Let's </h1>
+                    <h1 id="connect">Connect</h1>
+                    <h1 className="project-title">!</h1>
+                </div>
+                <br></br>
+                <div id="connect-with-me">
+                    <p className="about-paragraph">
+                        I’m always open to new opportunities, so feel free to reach out. Whether you’re looking for a chance to work together or simply connect, my inbox is always open.
+                    </p>
+                </div>
+                <br></br>
+                <br></br>                
+                <br></br>
+                <button id="hello-button">Say Hello</button>
+            </div>
         </div>
     )
 }

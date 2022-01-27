@@ -9,7 +9,7 @@ function Navbar(){
                 <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar='true' id="navBar" uk-sticky='true' >
                     <div className="uk-navbar-center">
                         <ul className="uk-navbar-nav">
-                            <li className="uk-active"><a id='intro' href="#about">Intro</a></li>
+                            <li className="uk-active"><a id='intro' href="#title-container">Intro</a></li>
                             <li className="uk-active"><a id='work' href="#work-container">Work</a></li>
                             <li className="uk-active"><a id='resume' href={Pdf}>Resume</a></li>
                         </ul>

@@ -1,3 +1,28 @@
 #work-container{
-    background-color: antiquewhite;
+    background-color: #f3f3f3;
+    min-height: 839px;
+}
+
+#work-container h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    display: inline;
+}
+
+#project-header{
+    color: #3DB3BB;
+}
+
+.project-title{
+    color: black;
+}
+
+#project-title-container{
+    padding-top: 181px;
+    margin-left: 251px;
+}
+
+#project-container{
+    max-width: 900px;
+    margin: auto;
 }
