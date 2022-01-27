@@ -31,8 +31,8 @@
 }
 
 .my-card{
-    min-height: 270px;
-    max-width: 270px;
+    height: 270px;
+    width: 270px;
     border-radius: 25px;
-    background-image: 'src/images/dog-and-person.webp';
+    background-size:cover;
 }
