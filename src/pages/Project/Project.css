@@ -33,6 +33,18 @@
 .my-card{
     height: 270px;
     width: 270px;
-    border-radius: 25px;
+    border-radius: 26px;
     background-size:cover;
+}
+
+.my-overlay{
+    border-radius: 25px;
+}
+
+.my-project-text{
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: -0.21px;
+    text-align: left;
 }
