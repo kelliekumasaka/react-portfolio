@@ -9,7 +9,7 @@
 #welcomeContainer{
     display: flex;
     justify-content: center;
-    max-width: 900px;
+    max-width: 937px;
     margin: auto;
 }
 
@@ -25,7 +25,7 @@
 }
 
 #info-container{
-    margin-right: 60px;
+    margin-right: 82px;
 }
 
 #myPic{
