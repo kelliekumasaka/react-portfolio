@@ -16,8 +16,8 @@ function Project(){
                 <div id="grid-container">
                     <div className="uk-grid-medium uk-child-width-expand@s uk-text-center" uk-grid='true'>
                         <div>
-                            <div id="pet-it" className="uk-card uk-card-default uk-card-body my-card uk-visible-toggle " tabIndex={-1} uk-toggle="target: #petit-title; mode: hover" style={{backgroundImage: `url(${PetIt})`}}>
-                                <div class="uk-position-bottom-left my-small-overlay" id="petit-title">
+                            <div id="pet-it" className="uk-card uk-card-body my-card uk-visible-toggle " tabIndex={-1} uk-toggle="target: #petit-title; mode: hover" style={{backgroundImage: `url(${PetIt})`}}>
+                                <div className="uk-position-bottom-left my-small-overlay" id="petit-title">
                                     <p className='my-project-text'>PetIt</p>
                                 </div>
                                 <div className="uk-overlay uk-overlay-primary uk-position-cover my-overlay uk-invisible-hover">
@@ -30,8 +30,8 @@ function Project(){
                             </div>
                         </div>
                         <div>
-                            <div id="bullet-journal-squared" className="uk-card uk-card-default uk-card-body my-card uk-visible-toggle" uk-toggle="target: #bujo-title; mode: hover" tabIndex={-1} style={{backgroundImage:`url(${BuJo})`}}>
-                                <div class="uk-position-bottom-left my-small-overlay" id="bujo-title">
+                            <div id="bullet-journal-squared" className="uk-card uk-card-body my-card uk-visible-toggle" uk-toggle="target: #bujo-title; mode: hover" tabIndex={-1} style={{backgroundImage:`url(${BuJo})`}}>
+                                <div className="uk-position-bottom-left my-small-overlay" id="bujo-title">
                                     <p className='my-project-text'>Bullet Journal Squared</p>
                                 </div>
                                 <div className="uk-overlay uk-overlay-primary uk-position-cover my-overlay uk-invisible-hover">
@@ -44,7 +44,7 @@ function Project(){
                             </div>
                         </div>
                         <div>
-                            <div id="acnh-island-manager" className="uk-card uk-card-default uk-card-body my-card uk-visible-toggle" uk-toggle="target: #animal-crossing-title; mode: hover"  tabIndex={-1} style={{backgroundImage:`url(${AnimalCrossing})`}}>
+                            <div id="acnh-island-manager" className="uk-card uk-card-body my-card uk-visible-toggle" uk-toggle="target: #animal-crossing-title; mode: hover"  tabIndex={-1} style={{backgroundImage:`url(${AnimalCrossing})`}}>
                                 <div className='uk-position-bottom-left my-small-overlay' id="animal-crossing-title">
                                     <p className='my-project-text'>Animal Crossing Island Manager</p>
                                 </div>
@@ -60,7 +60,7 @@ function Project(){
                     </div>
                     <div className="uk-grid-medium uk-child-width-expand@s uk-text-center" uk-grid='true'>
                         <div>
-                            <div id="employee-tracker" className="uk-card uk-card-default uk-card-body my-card uk-visible-toggle " tabIndex={-1} uk-toggle="target: #employee-title; mode: hover" style={{backgroundImage: `url(${Employee})`}}>
+                            <div id="employee-tracker" className="uk-card uk-card-body my-card uk-visible-toggle " tabIndex={-1} uk-toggle="target: #employee-title; mode: hover" style={{backgroundImage: `url(${Employee})`}}>
                                 <div className="uk-position-bottom-left my-small-overlay" id="employee-title">
                                     <p className='my-project-text'>Employee Tracker</p>
                                 </div>
