@@ -31,7 +31,7 @@
     padding-bottom: 181px;
 }
 
-#acnh-island-manager, #employee-tracker{
+#acnh-island-manager, #employee-tracker, #library, #viewnify{
     background-position: center;
 }
 
@@ -67,7 +67,7 @@
 
 .my-project-info{
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     letter-spacing: 0.18px;
     margin-bottom: 10px;
 }
