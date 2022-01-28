@@ -25,7 +25,7 @@ function Project(){
                                 <div className="uk-overlay uk-position-top my-project-text uk-invisible-hover">
                                     <p className="my-project-title">PetIt</p>
                                     <p className="my-project-info">Full stack social networking app allowing users to inform each other on the pet-friendliness of employers and establishments using MySQL, React, Node, and Express.</p>
-                                    <p><a className="read-more"  target='_blank' rel='noreferrer' href="https://github.com/dimitermusic/petit-frontend">Read More</a></p>
+                                    <p className="read-more"><a className="read-more"  target='_blank' rel='noreferrer' href="https://github.com/dimitermusic/petit-frontend">GitHub Repo</a> | <a className="read-more" href="https://petit-petfriendly.herokuapp.com/" target='_blank' rel="noreferrer"> Website</a></p>
                                 </div>
                             </div>
                         </div>
@@ -39,7 +39,7 @@ function Project(){
                                 <div className="uk-overlay uk-position-top my-project-text uk-invisible-hover">
                                     <p className="my-project-title">Bullet Journal Squared</p>
                                     <p className="my-project-info">Bullet Journal Squared is a website that allows users to create an account, write journal entries, and view their past thoughts and feelings.</p>
-                                    <p><a className="read-more"  target='_blank' rel='noreferrer' href="https://github.com/Mark-LohseMiranda/bulletjournal">Read More</a></p>
+                                    <p className="read-more" ><a className="read-more"  target='_blank' rel='noreferrer' href="https://github.com/Mark-LohseMiranda/bulletjournal">GitHub Repo</a> | <a className="read-more"  target='_blank' rel='noreferrer' href="https://bullet-journal-squared.herokuapp.com/">Website</a></p>
                                 </div>
                             </div>
                         </div>
@@ -53,7 +53,7 @@ function Project(){
                                 <div className="uk-overlay uk-position-top my-project-text uk-invisible-hover">
                                     <p className="my-project-title">Animal Crossing Island Manager</p>
                                     <p className="my-project-info">This website was built to help end-users keep track of their villagers and collectibles for Animal Crossing: New Horizons in one central hub.</p>
-                                    <p><a className="read-more"  target='_blank' rel='noreferrer' href="https://github.com/Rallen4/project1-animal-crossing">Read More</a></p>
+                                    <p className="read-more"><a className="read-more"  target='_blank' rel='noreferrer' href="https://github.com/Rallen4/project1-animal-crossing">GitHub Repo</a> | <a className="read-more"  target='_blank' rel='noreferrer' href="https://rallen4.github.io/project1-animal-crossing/">Website</a></p>
                                 </div>
                             </div>
                         </div>
@@ -69,7 +69,7 @@ function Project(){
                                 <div className="uk-overlay uk-position-top my-project-text uk-invisible-hover">
                                     <p className="my-project-title">Employee Tracker</p>
                                     <p className="my-project-info">This in-terminal app allows the user to create and view employees, departments, and roles within a company database.</p>
-                                    <p><a className="read-more" target='_blank' rel='noreferrer' href="https://github.com/kelliekumasaka/employee-tracker">Read More</a></p>
+                                    <p className="read-more"><a className="read-more" target='_blank' rel='noreferrer' href="https://github.com/kelliekumasaka/employee-tracker">GitHub Repo</a></p>
                                 </div>
                             </div>
                         </div>
