@@ -28,9 +28,10 @@
 
 #grid-container{
     margin-top: 20px;
+    padding-bottom: 181px;
 }
 
-#acnh-island-manager{
+#acnh-island-manager, #employee-tracker{
     background-position: center;
 }
 
