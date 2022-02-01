@@ -7,10 +7,11 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     display: inline;
+    font-size: 52px;
 }
 
 #project-header{
-    color: #3DB3BB;
+    color: #49B6DD;
 }
 
 .project-title{
@@ -18,22 +19,22 @@
 }
 
 #project-title-container{
-    padding-top: 181px;
+    padding-top: 138px;
+    padding-bottom: 37px;
 }
 
 #project-container{
-    max-width: 957px;
+    max-width: 1040px;
     margin:auto;
 }
 
 #grid-container{
-    margin-top: 20px;
-    padding-bottom: 181px;
+    padding-bottom: 158px;
 }
 
 .my-card{
-    height: 270px;
-    width: 270px;
+    height: 310px;
+    width: 310px;
     border-radius: 26px;
     background-size:cover;
     background-repeat: no-repeat;
