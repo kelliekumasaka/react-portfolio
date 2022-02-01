@@ -48,33 +48,47 @@
 }
 
 .my-small-overlay{
-    padding-left: 30px;
+    padding-left: 29px;
+    padding-top: 23px;
+}
+
+.overlay-titles{
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 12px;
 }
 
 .my-project-text{
     color: white;
-    font-weight: 700;
     font-size: 18px;
     letter-spacing: -0.21px;
     text-align: left;
-}
-
-.my-project-title{
-    margin-bottom: 10px;
+    padding: 23px 29px 26px 29px;
+    display: flex;
+    flex-direction: column;
 }
 
 .my-project-info{
     font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    font-size: 16px;
     letter-spacing: 0.18px;
-    margin-bottom: 10px;
+    margin: 0px;
+    line-height: 22px;
 }
 
 .read-more{
     color: white;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 18px;
     text-align: justify;
+}
+
+/* TODO: links at bottom of overlay */
+.links{
+    margin: 20px 0px 0px 0px;
 }
 
 /* TODO: fix the active hover click */
