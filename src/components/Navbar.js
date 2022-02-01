@@ -6,7 +6,7 @@ function Navbar(){
     return (
         <div id="my-nav" className="uk-position-relative">
             <div className="uk-position-top">
-                <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar='true' id="navBar" uk-sticky='true' >
+                <nav className="uk-navbar-container" uk-navbar='true' id="navBar" uk-sticky='true' >
                     <div className="uk-navbar-center">
                         <ul className="uk-navbar-nav">
                             <li className="uk-active"><a id='intro' href="#welcome-main" uk-scroll='true'>Intro</a></li>
