@@ -12,7 +12,7 @@
 }
 
 #connect{
-    color: #AF84ED;
+    color: #9F56F8;
 }
 
 #connect-container{
@@ -24,6 +24,7 @@
 }
 
 #connect-with-me{
+    margin: 20px 0px 40px 0px;
     text-align: center;
     max-width: 642px;
 }
@@ -33,7 +34,7 @@
     border-radius: 12px;
     background-color: transparent;
     border: solid 1px black;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #hello-button:hover{
