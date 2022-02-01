@@ -11,6 +11,7 @@ import Card from '../../components/Card';
 function Project(){
     const myProjects = [
         {
+            id:'petit',
             name:'PetIt',
             image: PetIt,
             description:"Full stack social networking app allowing users to inform each other on the pet-friendliness of employers and establishments using MySQL, React, Node, and Express.",
@@ -18,6 +19,7 @@ function Project(){
             website:'https://petit-petfriendly.herokuapp.com/'
         },
         {
+            id:'bujo',
             name:'Bullet Journal Squared',
             image: BuJo,
             description:"Bullet Journal Squared is a website that allows users to create an account, write journal entries, and view their past thoughts and feelings.",
@@ -25,6 +27,7 @@ function Project(){
             website:'https://bullet-journal-squared.herokuapp.com/'
         },
         {
+            id:'acnh-island-manager',
             name:'Animal Crossing Island Manager',
             image: AnimalCrossing,
             description:"This website was built to help end-users keep track of their villagers and collectibles for Animal Crossing: New Horizons in one central hub.",
@@ -32,12 +35,14 @@ function Project(){
             website:'https://rallen4.github.io/project1-animal-crossing/'
         },
         {
+            id:'employee-tracker',
             name:'Employee Tracker',
             image: Employee,
             description:"This in-terminal app allows the user to create and view employees, departments, and roles within a company database.",
             repo:"https://github.com/kelliekumasaka/employee-tracker"
         },
         {
+            id:'book-search',
             name:'Book Search Engine',
             image: Library,
             description:"A website that allows the user to look for books and save them and mark them as read.",
@@ -45,6 +50,7 @@ function Project(){
             website:'https://kk-book-search-engine.herokuapp.com/'
         },
         {
+            id:'viewnify',
             name:'Viewnify',
             image: Viewnify,
             description:"Viewnify is a movie matching, watch party app that allows you and your friends to swipe, like and dislike movies. You match movies with your friends, and can enjoy a watch party together.",
@@ -64,6 +70,7 @@ function Project(){
                     <div className="uk-grid-large uk-text-center" uk-grid='true'>
                         {myProjects.map(project => {
                             return <Card
+                                id={project.id}
                                 background={project.image}
                                 name = {project.name}
                                 description = {project.description}
