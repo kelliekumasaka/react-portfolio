@@ -45,7 +45,7 @@ function Project(){
             id:'book-search',
             name:'Book Search Engine',
             image: Library,
-            description:"A website that allows the user to look for books and save them and mark them as read.",
+            description:"A website that allows the user to look for books, save them, and mark them as they read.",
             repo:"https://github.com/kelliekumasaka/book-search-engine",
             website:'https://kk-book-search-engine.herokuapp.com/'
         },
