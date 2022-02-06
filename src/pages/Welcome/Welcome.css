@@ -54,7 +54,7 @@
     margin-bottom: 20px;
 }
 
-/* for small tablets  */
+/* TODO: for small tablets  */
 @media screen and (max-width:959px){
     #welcomeContainer{
         display: block;
@@ -77,7 +77,7 @@
     }
 }
 
-/* for larger phones */
+/* TODO: for larger phones */
 @media screen and (max-width:767px) {
     #info-container{
         margin-top: 10px;
@@ -94,7 +94,7 @@
     }
 }
 
-/* for smaller phones */
+/* TODO: for smaller phones */
 @media screen and (max-width:375px) {
     #info-container{
         margin-top: 50px;
