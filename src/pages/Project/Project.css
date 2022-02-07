@@ -32,117 +32,11 @@
     padding-bottom: 158px;
 }
 
-/* .my-card{
-    height: 310px;
-    width: 310px;
-    border-radius: 26px;
-    background-size:cover;
-    background-repeat: no-repeat;
-    box-shadow: 6px 6px 25px rgb(0 0 0 / 20%);
-    background-position: center;
-}
-
-.my-overlay{
-    border-radius: 25px;
-    background: rgba(0,0,0,0.5);
-}
-
-.my-small-overlay{
-    padding: 23px 29px 26px 29px;
-}
-
-.overlay-titles{
-    font-size: 28px;
-    font-weight: 700;
-    color: white;
-    text-align: left;
-    line-height: 30px;
-    margin-bottom: 12px;
-    letter-spacing: -0.27px;
-}
-
-.my-project-text{
-    color: white;
-    font-size: 18px;
-    text-align: left;
-    padding: 23px 29px 26px 29px;
-    display: flex;
-    flex-direction: column;
-}
-
-.my-project-info{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    letter-spacing: 0.18px;
-    margin: 0px;
-    line-height: 22px;
-    letter-spacing: 0.1px;
-}
-
-.read-more{
-    color: white;
-    font-weight: 500;
-    font-size: 18px;
-    text-align: justify;
-} */
-
 .my-grid{
     margin-top: 25px!important;
 }
 
-.new-card{
-    height: 410px;
-    width: 330px;
-    border-radius: 25px;
-}
-
-.card-info{
-    padding: 30px 34px 0px 34px!important;
-}
-
-.card-title{
-    font-size: 30px!important;
-    font-weight: 700;
-    line-height: 35px!important;
-    font-family: 'Poppins',sans-serif;
-    color: black!important;
-    margin-bottom: 10px;
-    letter-spacing: -0.25px;
-}
-
-.card-description{
-    margin: 0px;
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    line-height: 20px;
-}
-
-.read-more{
-    color: black;
-    font-weight: 500;
-    font-size: 18px;
-}
-
-.card-footer{
-    padding-left: 34px;
-    padding-bottom: 30px;
-    margin-top: auto;
-    text-align: left;
-}
-
-.images{
-    height: 140px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 25px 25px 0px 0px;
-}
-
-/* TODO: links at bottom of overlay */
-.links{
-    margin: 20px 0px 0px 0px;
-}
+/* TODO: do we want box shadow? padding size between titles and images */
 
 /* TODO: fix the active hover click */
 

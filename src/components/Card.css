@@ -1,0 +1,50 @@
+.new-card{
+    height: 410px;
+    width: 330px;
+    border-radius: 25px;
+}
+
+.card-info{
+    padding: 22px 34px 0px 34px!important;
+    min-height: 42%;
+}
+
+.card-title{
+    font-size: 30px!important;
+    font-weight: 700;
+    line-height: 35px!important;
+    font-family: 'Poppins',sans-serif;
+    color: black!important;
+    margin-bottom: 10px;
+    letter-spacing: -0.25px;
+}
+
+.card-description{
+    margin: 0px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+}
+
+.read-more{
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.card-footer{
+    padding-left: 34px;
+    padding-bottom: 30px;
+    margin-top: auto;
+    text-align: left;
+}
+
+.images{
+    height: 140px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px 0px 0px;
+}

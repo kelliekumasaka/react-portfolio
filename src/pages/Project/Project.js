@@ -22,7 +22,7 @@ function Project(){
             id:'bujo',
             name:'Bullet Journal Squared',
             image: BuJo,
-            description:"Bullet Journal Squared is a website that allows users to create an account, write journal entries, and view their past thoughts and feelings.",
+            description:"A website that allows users to create an account, write journal entries, and view their past thoughts and feelings.",
             repo:"https://github.com/Mark-LohseMiranda/bulletjournal",
             website:'https://bullet-journal-squared.herokuapp.com/'
         },
