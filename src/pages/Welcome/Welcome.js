@@ -17,9 +17,9 @@ function Welcome(){
                     <About/>
                 </div>
                 <div id="my-pics">
-                    <img alt="profile pic" id="myPic" src={Pic}/>
-                    <a href="https://github.com/kelliekumasaka"><img className="contact-icons" alt="github" id="github" src={GitHub}></img></a>
-                    <a href="https://www.linkedin.com/in/kellie-kumasaka/"><img alt="linkedin" id="linkedin" src={LinkedIn} className="contact-icons"></img></a>
+                    <img alt="profile pic" id="hero-pic" src={Pic}/>
+                    <a href="https://github.com/kelliekumasaka" target='_blank' rel="noreferrer"><img className="contact-icons" alt="github" id="github" src={GitHub}></img></a>
+                    <a href="https://www.linkedin.com/in/kellie-kumasaka/" target='_blank' rel="noreferrer"><img alt="linkedin" id="linkedin" src={LinkedIn} className="contact-icons"></img></a>
                 </div>
             </div>
         </div>

@@ -46,7 +46,7 @@
     height: auto;
 }
 
-#myPic{
+#hero-pic{
     border-radius:25px;
     width: 360px;
     height: 360px;
@@ -59,7 +59,7 @@
     #welcomeContainer{
         display: block;
     }
-    #myPic{
+    #hero-pic{
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -82,7 +82,7 @@
     #info-container{
         margin-top: 10px;
     }
-    #myPic{
+    #hero-pic{
         width: 240px;
         height: 240px;
     }
@@ -106,7 +106,7 @@
         font-size: smaller;
         width: 200px;
     }
-    #myPic{
+    #hero-pic{
         width: 200px;
         height: 200px;
     }
