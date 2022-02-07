@@ -36,8 +36,16 @@
     margin-top: 25px!important;
 }
 
+.links:hover{
+    color: rgb(97, 95, 95);
+}
+
+/* TODO: figure out how to get the column margins changed */
+.my-grid:not(.uk-first-column){
+
+}
+
 /* TODO: do we want box shadow? padding size between titles and images */
 
-/* TODO: fix the active hover click */
 
 /* TODO:  media queries for small desktops, tablets, phones*/

@@ -13,7 +13,7 @@ export default function Card(props){
                         <p className="uk-text-left card-description">{props.description}</p>
                     </div>
                     <div className="card-footer">
-                        { props.website ? <p className="read-more"><a className="read-more"  target='_blank' rel='noreferrer' href={props.repo}>GitHub Repo</a>  | <a className="read-more" href={props.website} target='_blank' rel="noreferrer"> Website</a></p> : <p className="read-more"><a className="read-more"  target='_blank' rel='noreferrer' href={props.repo}>GitHub Repo</a></p> }
+                        { props.website ? <p className="read-more"><a className="read-more links"  target='_blank' rel='noreferrer' href={props.repo}>GitHub Repo</a>  | <a className="read-more links" href={props.website} target='_blank' rel="noreferrer"> Website</a></p> : <p className="read-more"><a className="read-more links"  target='_blank' rel='noreferrer' href={props.repo}>GitHub Repo</a></p> }
                     </div>
                 </div>
             </div>
