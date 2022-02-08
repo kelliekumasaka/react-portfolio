@@ -24,6 +24,9 @@
 
 .contact-icons{
     width: 38px;
+}
+
+#icon-tags{
     float: right;
 }
 
@@ -54,32 +57,50 @@
     margin-bottom: 20px;
 }
 
-/* TODO: for small tablets  */
-@media screen and (max-width:959px){
+/* TODO: for large tablets */
+@media screen and (max-width:1060px){
+    .my-title{
+        font-size: 43px;
+    }
     #welcomeContainer{
-        display: block;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 644px;
+    }
+    #welcome-main{
+        padding-top: 176px;
     }
     #hero-pic{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        width: 300px;
+        height: 300px;
+        align-self: center;
     }
-    #title-container h1{
-        text-align: center;
+    #title-container{
+        margin-top: 45px;
     }
     #info-container{
-        margin: auto;
-        margin-top: 60px;
+        margin-right: 0px;
+        width: auto;
     }
     #about{
-        width: 360px;
-        margin: auto;
+        margin-top: 22px;
+    }
+    #my-pics{
+        display: flex;
+        flex-direction: column;
+    }
+    #icon-tags{
+        margin:20px auto 0px auto;
+    }
+    #github{
+        margin-right: 0px;
     }
 }
 
-/* TODO: for larger phones */
-@media screen and (max-width:767px) {
-    #info-container{
+/* TODO: for phones */
+@media screen and (max-width:744px) {
+    /* #info-container{
         margin-top: 10px;
     }
     #hero-pic{
@@ -91,30 +112,5 @@
     }
     #title-container h1{
         font-size: 2rem;
-    }
-}
-
-/* TODO: for smaller phones */
-@media screen and (max-width:375px) {
-    #info-container{
-        margin-top: 50px;
-    }
-    #title-container h1{
-        font-size: 1.5rem;
-    }
-    .about-paragraph{
-        font-size: smaller;
-        width: 200px;
-    }
-    #hero-pic{
-        width: 200px;
-        height: 200px;
-    }
-    #welcome-container{
-        margin: 0px;
-    }
-    #paragraph-container{
-        flex-direction: column;
-        margin: auto;
-    }
+    } */
 }

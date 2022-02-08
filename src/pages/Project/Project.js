@@ -1,7 +1,7 @@
 import React from "react";
 import "./Project.css";
 import AnimalCrossing from '../../images/animal-crossing.jpg';
-import PetIt from '../../images/dog-and-person.webp';
+import PetIt from '../../images/dog-and-person.jpg';
 import BuJo from '../../images/journal.jpg';
 import Employee from '../../images/meeting.jpg';
 import Library from '../../images/suz.jpg';
@@ -67,7 +67,7 @@ function Project(){
                     <h1 className="project-title">so far...</h1>
                 </div>
                 <div id="grid-container">
-                    <div className="uk-grid-large uk-text-center" uk-grid='true'>
+                    <div className="uk-grid-large uk-text-center" uk-grid='true' uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: false">
                         {myProjects.map(project => {
                             return <Card
                                 id={project.id}

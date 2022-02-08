@@ -3,7 +3,7 @@ import './Card.css';
 
 export default function Card(props){
     return(
-        <div key={props.name} className="uk-width-1-3@l uk-width-1-2@m uk-width-1-1@s my-grid">
+        <div className="uk-width-1-3@l uk-width-1-2@m uk-width-1-1@s my-grid" key={props.name}>
             <div>
                 <div className="uk-card uk-card-default new-card">
                     <div className="uk-card-media-top images" style={{backgroundImage: `url(${props.background})`}}>
