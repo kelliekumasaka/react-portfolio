@@ -5,19 +5,26 @@
     box-shadow: none!important;
 }
 
-.card-info{
-    padding: 32px 34px 0px 34px!important;
-    min-height: 41%;
+.card-container{
+    padding: 25px 34px 30px 34px!important;
+    text-align: left;
+}
+
+.card-info-container{
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card-title{
-    font-size: 30px!important;
+    font-size: 24px!important;
     font-weight: 700;
-    line-height: 35px!important;
+    line-height: 28px!important;
     font-family: 'Poppins',sans-serif;
     color: black!important;
-    margin-bottom: 10px;
-    letter-spacing: -0.25px;
+    margin-bottom: 12px;
+    letter-spacing: -0.2px;
 }
 
 .card-description{
@@ -30,16 +37,12 @@
 }
 
 .read-more{
+    text-align: left;
+    line-height: 27px;
     color: black;
     font-weight: 500;
+    margin-bottom: 0px;
     font-size: 18px;
-}
-
-.card-footer{
-    padding-left: 34px;
-    padding-bottom: 30px;
-    margin-top: auto;
-    text-align: left;
 }
 
 .images{

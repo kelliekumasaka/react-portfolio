@@ -8,12 +8,16 @@ export default function Card(props){
                 <div className="uk-card uk-card-default new-card">
                     <div className="uk-card-media-top images" style={{backgroundImage: `url(${props.background})`}}>
                     </div>
-                    <div className="uk-card-body card-info">
-                        <h3 className="uk-card-title uk-text-left card-title">{props.name}</h3>
-                        <p className="uk-text-left card-description">{props.description}</p>
-                    </div>
-                    <div className="card-footer">
-                        { props.website ? <p className="read-more"><a className="read-more links"  target='_blank' rel='noreferrer' href={props.repo}>GitHub Repo</a>  | <a className="read-more links" href={props.website} target='_blank' rel="noreferrer"> Website</a></p> : <p className="read-more"><a className="read-more links"  target='_blank' rel='noreferrer' href={props.repo}>GitHub Repo</a></p> }
+                    <div className="uk-card-body card-container">
+                        <div className="card-info-container">
+                            <div className="card-info">
+                                <h3 className="uk-card-title card-title">{props.name}</h3>
+                                <p className="card-description">{props.description}</p>
+                            </div>
+                            <div className="card-footer">
+                                { props.website ? <p className="read-more"><a className="read-more links"  target='_blank' rel='noreferrer' href={props.repo}>GitHub Repo</a>  | <a className="read-more links" href={props.website} target='_blank' rel="noreferrer"> Website</a></p> : <p className="read-more"><a className="read-more links"  target='_blank' rel='noreferrer' href={props.repo}>GitHub Repo</a></p> }
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

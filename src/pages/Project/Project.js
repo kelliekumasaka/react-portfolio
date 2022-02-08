@@ -67,7 +67,7 @@ function Project(){
                     <h1 className="project-title">so far...</h1>
                 </div>
                 <div id="grid-container">
-                    <div className="uk-grid-large uk-text-center" uk-grid='true' uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: false">
+                    <div className="uk-grid-large uk-text-center" uk-grid='true'>
                         {myProjects.map(project => {
                             return <Card
                                 id={project.id}
