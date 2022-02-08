@@ -12,6 +12,10 @@
     height: 90px;
 }
 
+#intro:hover, #work:hover, #resume:hover, #contact:hover{
+    color: #656565;
+}
+
 @media screen and (max-width:1060px) {
     #intro, #work, #resume, #contact{
         font-size: 17px;
