@@ -1,11 +1,11 @@
 import React from "react";
 import "./Project.css";
-import AnimalCrossing from '../../images/animal-crossing.jpg';
-import PetIt from '../../images/dog-and-person.jpg';
-import BuJo from '../../images/journal.jpg';
-import Employee from '../../images/meeting.jpg';
-import Library from '../../images/suz.jpg';
-import Viewnify from '../../images/viewnify.jpg';
+import AnimalCrossing from '../../images/resized-acnh.png';
+import PetIt from '../../images/PetIt_Resized.png';
+import BuJo from '../../images/resized-bujo.png';
+import Employee from '../../images/resized-meeting.png';
+import Library from '../../images/resized-suz.png';
+import Viewnify from '../../images/Viewnify_Resized.png';
 import Card from '../../components/Card';
 
 function Project(){

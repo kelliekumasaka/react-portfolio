@@ -5,6 +5,7 @@
     background-color: #ffffff;
     padding-top: 228px;
     padding-bottom: 158px;
+    width: 100%;
 }
 
 #welcomeContainer{
@@ -61,7 +62,6 @@
     margin-bottom: 20px;
 }
 
-/* TODO: for large tablets */
 @media screen and (max-width:1060px){
     .my-title{
         font-size: 43px;
