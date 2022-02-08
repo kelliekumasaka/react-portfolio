@@ -7,10 +7,14 @@
     justify-content: center;
 }
 
+#white-github{
+    margin-left: 15px;
+}
+
 .footer-icons{
     width: 38px;
 }
 
-#white-github{
-    margin-left: 15px;
+.footer-icons:hover{
+    opacity: 0.6;
 }

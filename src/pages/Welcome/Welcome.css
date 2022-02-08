@@ -26,6 +26,10 @@
     width: 38px;
 }
 
+.contact-icons:hover{
+    opacity: 0.6;
+}
+
 #icon-tags{
     float: right;
 }

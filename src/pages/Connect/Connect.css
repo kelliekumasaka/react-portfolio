@@ -39,4 +39,6 @@
 
 #hello-button:hover{
     cursor: pointer;
+    color: #656565;
+    border: solid 1px #656565;
 }
