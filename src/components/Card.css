@@ -5,6 +5,10 @@
     box-shadow: none!important;
 }
 
+.new-card:hover{
+    bottom: 10px;
+}
+
 .card-container{
     padding: 25px 34px 30px 34px!important;
     text-align: left;

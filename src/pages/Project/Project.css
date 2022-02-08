@@ -40,7 +40,7 @@
     color: #656565;
 }
 
-/* TODO:  media queries for tablets, phones*/
+/* TODO:  media queries for phones*/
 @media screen and (max-width:1060px) {
     #project-container{
         padding-top: 78px;
