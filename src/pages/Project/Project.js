@@ -64,21 +64,19 @@ function Project(){
             <div id="project-container">
                 <div id="project-title-container">
                     <h1 id="project-header">Projects </h1>
-                    <h1 className="project-title">so far...</h1>
+                    <h1 id="project-title">so far...</h1>
                 </div>
                 <div id="grid-container">
-                    <div className="uk-grid-large uk-text-center" uk-grid='true'>
-                        {myProjects.map(project => {
-                            return <Card
-                                id={project.id}
-                                background={project.image}
-                                name = {project.name}
-                                description = {project.description}
-                                repo = {project.repo}
-                                website = {project.website}
-                            />
-                        })}
-                    </div>
+                    {myProjects.map(project => {
+                        return <Card
+                            id={project.id}
+                            background={project.image}
+                            name = {project.name}
+                            description = {project.description}
+                            repo = {project.repo}
+                            website = {project.website}
+                        />
+                    })}
                 </div>
             </div>
         </div>

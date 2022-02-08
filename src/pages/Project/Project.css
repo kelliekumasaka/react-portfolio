@@ -15,38 +15,45 @@
     color: #49B6DD;
 }
 
-.project-title{
+#project-title{
     color: black;
 }
 
 #project-title-container{
-    padding-top: 138px;
-    padding-bottom: 12px;
+    margin-bottom: 31px;
 }
 
 #project-container{
+    padding-top: 138px;
     max-width: 1040px;
     margin:auto;
 }
 
 #grid-container{
     padding-bottom: 158px;
-}
-
-.my-grid{
-    margin-top: 25px!important;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
 }
 
 .links:hover{
     color: #656565;
 }
 
-/* TODO: figure out how to get the column margins changed */
-.my-grid:not(.uk-first-column){
-
+/* TODO:  media queries for tablets, phones*/
+@media screen and (max-width:1060px) {
+    #project-container{
+        padding-top: 78px;
+        width: 644px;
+    }
+    #grid-container{
+        padding-bottom: 86px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 24px;
+        row-gap: 36px;
+    }
+    #projects h1{
+        font-size: 42px;
+    }
 }
-
-/* TODO: do we want box shadow? padding size between titles and images */
-
-
-/* TODO:  media queries for small desktops, tablets, phones*/

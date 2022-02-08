@@ -27,19 +27,33 @@
 #connect-with-me{
     margin: 20px 0px 40px 0px;
     text-align: center;
-    max-width: 642px;
+    width: 642px;
 }
 
 #hello-button{
-    padding: 10px 40px;
     border-radius: 12px;
     background-color: transparent;
     border: solid 1px black;
     font-size: 18px;
+    width: 161px;
+    height: 46px;
 }
 
 #hello-button:hover{
     cursor: pointer;
     color: #656565;
     border: solid 1px #656565;
+}
+
+@media screen and (max-width:1060px) {
+    #connect{
+        height: 398px;
+    }
+    #connect-title-container h1{
+        font-size: 42px;
+    }
+    #connect-with-me{
+        margin-bottom: 38px;
+        width: 550px;
+    }
 }

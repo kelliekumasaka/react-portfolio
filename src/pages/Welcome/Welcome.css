@@ -64,7 +64,7 @@
 
 @media screen and (max-width:1060px){
     .my-title{
-        font-size: 43px;
+        font-size: 42px;
     }
     #welcomeContainer{
         display: flex;
@@ -74,6 +74,7 @@
     }
     #welcome-main{
         padding-top: 176px;
+        padding-bottom: 86px;
     }
     #hero-pic{
         width: 300px;
@@ -81,7 +82,7 @@
         align-self: center;
     }
     #title-container{
-        margin-top: 45px;
+        margin-top: 30px;
     }
     #info-container{
         margin-right: 0px;
@@ -95,7 +96,7 @@
         flex-direction: column;
     }
     #icon-tags{
-        margin:20px auto 0px auto;
+        margin:auto;
     }
     #github{
         margin-right: 0px;
