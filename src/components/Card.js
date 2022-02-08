@@ -3,7 +3,7 @@ import './Card.css';
 
 export default function Card(props){
     return(
-        <div className="uk-card uk-card-default new-card" id={props.id} key={props.id} >
+        <div className="uk-card uk-card-default new-card" id={props.id} key={props.id}>
             <div className="uk-card-media-top images" style={{backgroundImage: `url(${props.background})`}}>
             </div>
             <div className="uk-card-body card-container">

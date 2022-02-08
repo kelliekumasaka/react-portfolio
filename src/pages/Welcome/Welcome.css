@@ -66,38 +66,47 @@
     .my-title{
         font-size: 42px;
     }
+
     #welcomeContainer{
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         width: 644px;
     }
+
     #welcome-main{
         padding-top: 176px;
         padding-bottom: 86px;
     }
+
     #hero-pic{
         width: 300px;
         height: 300px;
         align-self: center;
     }
+
     #title-container{
         margin-top: 30px;
     }
+
     #info-container{
         margin-right: 0px;
         width: auto;
     }
+
     #about{
         margin-top: 22px;
     }
+
     #my-pics{
         display: flex;
         flex-direction: column;
     }
+
     #icon-tags{
         margin:auto;
     }
+    
     #github{
         margin-right: 0px;
     }

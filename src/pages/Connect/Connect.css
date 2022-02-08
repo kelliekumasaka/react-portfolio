@@ -17,7 +17,6 @@
 }
 
 #connect-container{
-    width: 700px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -57,3 +56,5 @@
         width: 550px;
     }
 }
+
+/* TODO:  media queries for phones*/

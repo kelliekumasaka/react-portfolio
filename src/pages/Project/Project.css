@@ -40,20 +40,27 @@
     color: #656565;
 }
 
-/* TODO:  media queries for phones*/
 @media screen and (max-width:1060px) {
     #project-container{
         padding-top: 78px;
         width: 644px;
     }
+    
     #grid-container{
         padding-bottom: 86px;
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 24px;
         row-gap: 36px;
     }
+    
     #projects h1{
         font-size: 42px;
+    }
+}
+
+/* TODO:  media queries for phones*/
+@media screen and (max-width:744px) {
+    #grid-container{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
