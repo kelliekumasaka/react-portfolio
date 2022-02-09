@@ -15,7 +15,7 @@ function Connect(){
                     <h1 className="project-title">!</h1>
                 </div>
                 <div id="connect-with-me">
-                    <p className="about-paragraph">
+                    <p className="about-paragraph" id="connect-paragraph">
                         I’m always open to new opportunities, so feel free to reach out. Whether you’re looking for a chance to work together or simply connect, my inbox is always open.
                     </p>
                 </div>

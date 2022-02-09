@@ -19,12 +19,13 @@
 }
 
 .card-container{
-    padding: 25px 34px 30px 34px!important;
+    padding: 33px 34px 30px 34px!important;
     text-align: left;
 }
 
 .card-info-container{
-    height: 215px;
+    height: 207px;
+    width: 262px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -53,7 +54,7 @@
     text-align: left;
     line-height: 27px;
     color: black;
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: 0px;
     font-size: 18px;
 }
@@ -65,3 +66,8 @@
 }
 
 /* TODO:  media queries for phones*/
+@media screen and (max-width:744px) {
+    .new-card{
+        justify-self: center;
+    }
+}

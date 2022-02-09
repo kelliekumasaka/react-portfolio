@@ -52,10 +52,11 @@
 #my-pics{
     width: 360px;
     height: auto;
+    margin-top: 10px;
 }
 
 #hero-pic{
-    border-radius:25px;
+    border-radius:33px;
     width: 360px;
     height: 360px;
     object-fit: cover;
@@ -101,6 +102,7 @@
     #my-pics{
         display: flex;
         flex-direction: column;
+        margin-top: 0px;
     }
 
     #icon-tags{
@@ -114,17 +116,15 @@
 
 /* TODO: for phones */
 @media screen and (max-width:744px) {
-    /* #info-container{
-        margin-top: 10px;
+    #info-container{
+        margin: 10px 5px 0px 5px;
     }
     #hero-pic{
         width: 240px;
         height: 240px;
     }
-    .about-paragraph{
-        font-size: small;
+
+    .my-title{
+        font-size: 36px;
     }
-    #title-container h1{
-        font-size: 2rem;
-    } */
 }

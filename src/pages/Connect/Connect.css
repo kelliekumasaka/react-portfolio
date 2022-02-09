@@ -21,6 +21,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 #connect-with-me{
@@ -48,9 +49,11 @@
     #connect{
         height: 398px;
     }
+
     #connect-title-container h1{
         font-size: 42px;
     }
+
     #connect-with-me{
         margin-bottom: 38px;
         width: 550px;
@@ -58,3 +61,13 @@
 }
 
 /* TODO:  media queries for phones*/
+@media screen and (max-width:744px) {
+    #connect-with-me{
+        width: auto;
+    }
+    
+    #connect-paragraph{
+        margin: 0px 5px 0px 5px;
+        font-size: 15px;
+    }
+}

@@ -64,4 +64,12 @@
     #grid-container{
         grid-template-columns: repeat(1, 1fr);
     }
+
+    #project-container{
+        width: 100%;
+    }
+    
+    #project-title-container{
+        margin: 0px 5px 20px 5px;
+    }
 }

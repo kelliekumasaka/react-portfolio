@@ -18,3 +18,9 @@
 .my-code{
     white-space: normal;
 }
+
+@media screen and (max-width:744px) {
+    .about-paragraph{
+        font-size: 15px;
+    }
+}
