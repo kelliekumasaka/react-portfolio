@@ -1,13 +1,15 @@
 .new-card{
     height: 410px;
+    transition: bottom 0.2s!important;
     width: 330px;
     border-radius: 25px;
     box-shadow: none!important;
+    bottom: 0px;
 }
 
-/* .new-card:hover{
+.new-card:hover{
     bottom: 10px;
-} */
+}
 
 .images{
     height: 140px;
