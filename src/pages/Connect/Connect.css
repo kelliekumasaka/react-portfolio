@@ -60,14 +60,16 @@
     }
 }
 
-/* TODO:  media queries for phones*/
+/* TODO:  media queries for large phones*/
 @media screen and (max-width:744px) {
     #connect-with-me{
         width: auto;
     }
-    
+
     #connect-paragraph{
         margin: 0px 5px 0px 5px;
         font-size: 15px;
     }
 }
+
+/* TODO: media queries for small phones */

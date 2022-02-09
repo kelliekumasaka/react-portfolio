@@ -65,9 +65,11 @@
     }
 }
 
-/* TODO:  media queries for phones*/
+/* TODO:  media queries for large phones*/
 @media screen and (max-width:744px) {
     .new-card{
         justify-self: center;
     }
 }
+
+/* TODO: media queries for small phones */

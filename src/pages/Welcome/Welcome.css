@@ -114,7 +114,7 @@
     }
 }
 
-/* TODO: for phones */
+/* TODO: for large phones */
 @media screen and (max-width:744px) {
     #info-container{
         margin: 10px 5px 0px 5px;
@@ -128,3 +128,5 @@
         font-size: 36px;
     }
 }
+
+/* TODO: media queries for small phones */

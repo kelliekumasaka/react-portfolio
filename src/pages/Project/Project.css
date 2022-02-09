@@ -59,7 +59,7 @@
     }
 }
 
-/* TODO:  media queries for phones*/
+/* TODO:  media queries for large phones*/
 @media screen and (max-width:744px) {
     #grid-container{
         grid-template-columns: repeat(1, 1fr);
@@ -73,3 +73,5 @@
         margin: 0px 5px 20px 5px;
     }
 }
+
+/* TODO: media queries for small phones */
