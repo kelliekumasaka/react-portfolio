@@ -16,8 +16,11 @@
     color: #656565;
 }
 
+/* for tablets */
 @media screen and (max-width:1060px) {
     #intro, #work, #resume, #contact{
         font-size: 17px;
     }
 }
+
+/* for phones */

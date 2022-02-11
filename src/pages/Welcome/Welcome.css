@@ -63,11 +63,29 @@
     margin-bottom: 20px;
 }
 
-@media screen and (max-width:1060px){
-    .my-title{
-        font-size: 42px;
-    }
+#about{
+    display: flex;
+    margin-top: 36px;
+}
 
+#paragraph-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-paragraph{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+.my-code{
+    white-space: normal;
+}
+
+/* for tablets */
+@media screen and (max-width:1060px){
     #welcomeContainer{
         display: flex;
         flex-direction: column-reverse;
@@ -95,10 +113,6 @@
         width: auto;
     }
 
-    #about{
-        margin-top: 22px;
-    }
-
     #my-pics{
         display: flex;
         flex-direction: column;
@@ -114,19 +128,40 @@
     }
 }
 
-/* TODO: for large phones */
+/* for large phones */
 @media screen and (max-width:744px) {
     #info-container{
-        margin: 10px 5px 0px 5px;
+        margin: 0px 25px;
     }
+
     #hero-pic{
-        width: 240px;
-        height: 240px;
+        width: 228px;
+        height: 228px;
+    }
+
+    #title-container{
+        margin-top: 38px;
     }
 
     .my-title{
-        font-size: 36px;
+        font-size: max(5.75vw,29px);
     }
+
+    .about-paragraph{
+        font-size: max(2.41vw,16px)!important;
+    }
+
+    #about{
+        margin-top: 31px;
+    }
+
+    #welcome-main{
+        padding-bottom: 52px;
+    }
+
 }
 
 /* TODO: media queries for small phones */
+@media screen and (max-width:365px) {
+    
+}

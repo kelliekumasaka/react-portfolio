@@ -19,25 +19,24 @@
 }
 
 .card-container{
-    padding: 33px 34px 30px 34px!important;
+    padding: 28px 34px 0px 34px!important;
     text-align: left;
 }
 
 .card-info-container{
     height: 207px;
-    width: 262px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .card-title{
-    font-size: 24px!important;
+    font-size: 22px!important;
     font-weight: 700;
-    line-height: 28px!important;
+    line-height: 25px!important;
     font-family: 'Poppins',sans-serif;
     color: black!important;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
     letter-spacing: -0.2px;
 }
 
@@ -59,13 +58,15 @@
     font-size: 18px;
 }
 
+/* for tablets */
 @media screen and (max-width:1060px) {
     .new-card{
         width: 310px;
+        height: 410px;
     }
 }
 
-/* TODO:  media queries for large phones*/
+/* for large phones*/
 @media screen and (max-width:744px) {
     .new-card{
         justify-self: center;
@@ -73,3 +74,6 @@
 }
 
 /* TODO: media queries for small phones */
+@media screen and (max-width:365px) {
+    
+}

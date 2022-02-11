@@ -1,6 +1,6 @@
-#about{
+/* #about{
     display: flex;
-    margin-top: 25px;
+    margin-top: 36px;
 }
 
 #paragraph-container{
@@ -20,7 +20,7 @@
 }
 
 @media screen and (max-width:744px) {
-    .about-paragraph{
-        font-size: 15px;
+    #about{
+        margin-top: 31px;
     }
-}
+} */

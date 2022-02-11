@@ -12,8 +12,12 @@
     font-size: 43px;
 }
 
+.project-title{
+    color: black;
+}
+
 #connect{
-    color: #AC5DE0;
+    color: #94D77C;
 }
 
 #connect-container{
@@ -34,6 +38,7 @@
     border-radius: 12px;
     background-color: transparent;
     border: solid 1px black;
+    color: black;
     font-size: 18px;
     width: 161px;
     height: 46px;
@@ -50,26 +55,32 @@
         height: 398px;
     }
 
-    #connect-title-container h1{
-        font-size: 42px;
-    }
-
     #connect-with-me{
         margin-bottom: 38px;
         width: 550px;
     }
 }
 
-/* TODO:  media queries for large phones*/
+/* for large phones*/
 @media screen and (max-width:744px) {
     #connect-with-me{
-        width: auto;
+        max-width: 364px;
     }
 
-    #connect-paragraph{
-        margin: 0px 5px 0px 5px;
-        font-size: 15px;
+    #connect-title-container h1{
+        font-size: max(5.75vw,29px);
+    }
+
+    #connect-container{
+        margin: 52px 0px;
+    }
+
+    #connect{
+        height: fit-content;
     }
 }
 
 /* TODO: media queries for small phones */
+@media screen and (max-width:365px) {
+    
+}

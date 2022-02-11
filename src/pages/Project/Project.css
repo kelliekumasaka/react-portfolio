@@ -4,7 +4,7 @@
     width: 100%;
 }
 
-#projects h1{
+#project-header, #project-title{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     display: inline;
@@ -41,6 +41,7 @@
     color: #656565;
 }
 
+/* for tablets */
 @media screen and (max-width:1060px) {
     #project-container{
         padding-top: 78px;
@@ -53,25 +54,31 @@
         column-gap: 24px;
         row-gap: 36px;
     }
-    
-    #projects h1{
-        font-size: 42px;
-    }
 }
 
-/* TODO:  media queries for large phones*/
+/* for large phones*/
 @media screen and (max-width:744px) {
     #grid-container{
         grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 52px;
     }
 
     #project-container{
         width: 100%;
+        padding-top: 44px;
     }
     
     #project-title-container{
-        margin: 0px 5px 20px 5px;
+        margin:0px auto 35px auto;
+        width: fit-content;
+    }
+
+    #project-header, #project-title{
+        font-size: max(5.75vw,29px);
     }
 }
 
 /* TODO: media queries for small phones */
+@media screen and (max-width:365px) {
+    
+}
