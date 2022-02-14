@@ -71,6 +71,10 @@
     .new-card{
         justify-self: center;
     }
+
+    .new-card:hover{
+        bottom: 0px;
+    }
 }
 
 /* TODO: media queries for small phones */
