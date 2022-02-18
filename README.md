@@ -30,7 +30,7 @@ To run this website, you need to have `react` installed, as well as the `uikit` 
 
 
 ## Contributing
-### Nyle Miura - Website Designer
+### Nyle Miura - UX/UI Designer
     https://www.linkedin.com/in/nylemiura/
 
 ## Tests
