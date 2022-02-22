@@ -15,6 +15,7 @@
     height: 140px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     border-radius: 25px 25px 0px 0px;
 }
 
