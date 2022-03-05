@@ -11,7 +11,7 @@ function Welcome(){
                 <div id="info-container">
                     <div id="title-container">
                         <h1 id="name" className="uk-animation-fade my-title">Kellie Kumasaka.</h1>
-                        <h1 className="uk-animation-fade my-title">Full-Stack Developer.</h1>
+                        <h1 className="uk-animation-fade my-title">Software Engineer.</h1>
                     </div>
                     <div key="about" id="about">
                         <div id="paragraph-container" className="uk-animation-fade">
