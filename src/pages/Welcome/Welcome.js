@@ -3,6 +3,7 @@ import Pic from "../../images/new.jpg"
 import "./Welcome.css"
 import LinkedIn from "../../images/black-linkedin.png";
 import GitHub from "../../images/github-logo.png";
+import Insta from "../../images/black-insta.png";
 
 function Welcome(){
     return(
@@ -33,6 +34,9 @@ function Welcome(){
                         </a>
                         <a href="https://github.com/kelliekumasaka" target='_blank' rel="noreferrer">
                             <img className="contact-icons" alt="github" id="github" src={GitHub}></img>
+                        </a>
+                        <a href="https://www.instagram.com/kumayama.journals/" target='_blank' rel="noreferrer">
+                            <img className="contact-icons" alt="insta" id="insta" src={Insta}></img>
                         </a>
                     </div>
                 </div>

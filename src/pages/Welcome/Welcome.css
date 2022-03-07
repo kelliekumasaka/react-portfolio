@@ -35,9 +35,12 @@
     float: right;
 }
 
-#github{
-    margin-right: 5px;
+#github, #insta{
     margin-left: 15px;
+}
+
+#insta{
+    margin-right: 5px;
 }
 
 #name{
@@ -123,7 +126,7 @@
         margin:auto;
     }
     
-    #github{
+    #github, #insta{
         margin-right: 0px;
     }
 }
