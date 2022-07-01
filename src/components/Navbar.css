@@ -1,13 +1,15 @@
 #intro, #work, #resume, #contact{
     text-transform: none;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     color: black;
 }
 
 #navBar{
-    background-color: #ffffff;
+    background: rgba(255,255,255,0.2);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     box-shadow: 0px 2px 25px rgba(0,0,0,0.06);
     height: 90px;
 }
