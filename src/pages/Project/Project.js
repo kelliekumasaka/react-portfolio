@@ -24,7 +24,7 @@ function Project(){
             image: BuJo,
             description:"A website that allows users to create an account, write journal entries, and view their past thoughts and feelings.",
             repo:"https://github.com/Mark-LohseMiranda/bulletjournal",
-            website:'https://bullet-journal-squared.herokuapp.com/'
+            website:'https://bit.ly/3Rk4H62'
         },
         {
             id:'acnh-island-manager',
