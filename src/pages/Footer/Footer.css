@@ -13,6 +13,7 @@
 
 .footer-icons{
     width: 38px;
+    transition: all 0.15s ease-in-out;
 }
 
 .footer-icons:hover{
