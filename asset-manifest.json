@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.497619b5.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.c396b0b4.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.c396b0b4.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.a1aafeb2.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.a1aafeb2.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.37b83d9e.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.37b83d9e.js.map",
     "static/css/2.176b83ba.chunk.css": "/react-portfolio/static/css/2.176b83ba.chunk.css",
@@ -13,14 +13,11 @@
     "static/css/main.497619b5.chunk.css.map": "/react-portfolio/static/css/main.497619b5.chunk.css.map",
     "static/js/2.35f9b37d.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.35f9b37d.chunk.js.LICENSE.txt",
     "static/media/PetIt_Resized.9a5299d9.png": "/react-portfolio/static/media/PetIt_Resized.9a5299d9.png",
-    "static/media/Viewnify_Resized.d7721371.png": "/react-portfolio/static/media/Viewnify_Resized.d7721371.png",
     "static/media/black-insta.3e87baff.png": "/react-portfolio/static/media/black-insta.3e87baff.png",
     "static/media/new.b93fa224.jpg": "/react-portfolio/static/media/new.b93fa224.jpg",
-    "static/media/resized-acnh.aff60dc0.png": "/react-portfolio/static/media/resized-acnh.aff60dc0.png",
-    "static/media/resized-bujo.2f152940.png": "/react-portfolio/static/media/resized-bujo.2f152940.png",
     "static/media/resized-meeting.3f7b3431.png": "/react-portfolio/static/media/resized-meeting.3f7b3431.png",
-    "static/media/resized-suz.39ecb77e.png": "/react-portfolio/static/media/resized-suz.39ecb77e.png",
     "static/media/resume.dc985c95.pdf": "/react-portfolio/static/media/resume.dc985c95.pdf",
+    "static/media/roku.9d727c16.jpg": "/react-portfolio/static/media/roku.9d727c16.jpg",
     "static/media/white-github.987334e9.png": "/react-portfolio/static/media/white-github.987334e9.png",
     "static/media/white-insta.6f7718f3.png": "/react-portfolio/static/media/white-insta.6f7718f3.png",
     "static/media/white-linkedin.a18fd0e3.png": "/react-portfolio/static/media/white-linkedin.a18fd0e3.png"
@@ -30,6 +27,6 @@
     "static/css/2.176b83ba.chunk.css",
     "static/js/2.35f9b37d.chunk.js",
     "static/css/main.497619b5.chunk.css",
-    "static/js/main.c396b0b4.chunk.js"
+    "static/js/main.a1aafeb2.chunk.js"
   ]
 }
