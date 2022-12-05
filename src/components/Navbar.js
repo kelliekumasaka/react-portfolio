@@ -27,7 +27,7 @@ function Navbar(){
                                 <li className="uk-active"><a 
                                 id='intro' href="#welcome-main" uk-scroll='true'>Intro</a></li>
                                 <li className="uk-active"><a id='work' href="#projects" 
-                                uk-scroll='true'>Projects</a></li>
+                                uk-scroll='true'>Work</a></li>
                                 <li className="uk-active"><a id='contact' 
                                 href="#connect" uk-scroll='true'>Contact</a></li>
                                 <li className="uk-active"><a id='resume' href={Pdf}>Resume</a></li>
