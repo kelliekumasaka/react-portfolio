@@ -31,7 +31,6 @@ function Project(){
             name:'Animal Crossing Island Manager',
             image: AnimalCrossing,
             description:"This website was built to help end-users keep track of their villagers and collectibles for Animal Crossing: New Horizons in one central hub.",
-            repo:"https://github.com/Rallen4/project1-animal-crossing",
             website:'https://rallen4.github.io/project1-animal-crossing/'
         },
         {
